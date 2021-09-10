@@ -9,7 +9,7 @@ function App() {
     <Router>
     <div className="App2">
       <Switch>
-        <Route exact path="/indicators"><Ind1 /></Route>
+        <Route exact path="/"><Ind1 /></Route>
         <Route exact path="/dividend-calculator"><DividendCalculator /></Route>
       </Switch>
     </div>
